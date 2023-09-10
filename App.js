@@ -6,7 +6,6 @@ export default class App extends React.Component {
     return (
       <WebView 
       source={{ uri: "https://tataskyip.tv/" }} 
-      style={{ marginTop: 20 }} 
       />
     );
   }
